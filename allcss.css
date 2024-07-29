@@ -1,0 +1,49 @@
+/*all*/
+
+.sidebar {
+  background-color: rgb(232, 222, 222);
+  width: 380px;
+  height: 90%;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 101;
+  overflow-y: scroll;
+  box-shadow: 2px 2px 30px black;
+}
+.hdn-content i {
+  color: white;
+  font-size: 30px;
+  font-weight: 730px;
+  position: absolute;
+  left: 15px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.hdn-head {
+  background-color: #232f3e;
+  height: 60px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.hdn-head h2 {
+  line-height: 60px;
+}
+.hdn-content h3 {
+  padding: 20px 25px;
+  color: rgb(39, 39, 39);
+}
+.hdn-content ul div {
+  display: flex;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 16px;
+  color: rgb(70, 70, 70);
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.shop {
+  overflow-y: scroll;
+  height: 250px;
+}

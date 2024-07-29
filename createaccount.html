@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Account Page Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img
+        class="amazonlogo"
+        src="./assets/black_amazon.png"
+        alt="amazon_logo"
+      />
+    <div class="container">
+      
+      <h1>Create Account</h1>
+      <form id="accountForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name"  placeholder="First and last name" required />
+        <label for="email">Email or mobile phone number</label>
+        <input type="email" id="email" name="email" placeholder="Email or phone number" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+        <label for="password" id="repass">Re-enter password</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit" style="color: black;">Continue</button>
+        <p>
+          By creating an account,you agree to Amazon's
+          <span>Conditions of Use</span> and <span>Privacy Notice.</span>
+        </p>
+        <br>
+        <p>Already have an account?<span>Sign in </span></p>
+        <p>Buying for work?<span>Create a free business account </span></p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
